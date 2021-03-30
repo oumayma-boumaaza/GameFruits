@@ -1,0 +1,70 @@
+body{
+    background-image: url(:/img/img1.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+}
+
+
+.container>header>h1{
+
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#plateau td{
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+    border: 1px solid white;
+    text-align: center;
+    font-size: 30px;
+}
+.trouve{
+    background-color:green!important;
+}
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
+.tdHide{
+    opacity: 0;
+    transition-duration: 1;
+}
+.tdShow{
+    opacity: 1;
+    transition-duration: 1;
+}
+img {
+    height: 75px;
+    width: 75x;
+}
+.message{
+    height: 80px;
+    width: 100%;
+    padding: 12px;
+    margin: 12px;
+    text-align: center;
+    border-radius: 8px;
+    font-size:xx-large;
+}
+.loser{
+    background-color: red;
+    border: 1px solid rgb(248, 232, 7);
+}
+.winner{
+    background-color: rgb(12, 180, 231);
+    border: 1px solid rgb(238, 11, 143);
+}
+footer {
+    bottom: -1px;
+    font-size: larger;
+    text-align: center;
+    color: white;
+    background-color: black;
+    clear: both;
+     position: relative; 
+    width: 100%;
+    height: 10vw;
+    display: block;
+}s

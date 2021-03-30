@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/main.css">
+    <script defer src="js/main.js"></script>
+</head>
+<body class="container" style="background-image: url(./img/img1.jpg);">
+    <header>
+        <h1>
+             Match fruit
+        </h1>
+    </header>
+    <hr>
+     <main class="row" > <!-- 12 parties-->
+            <!-- parametres--> 
+
+            <section class="col-md-3">
+                <div class="form-group">
+                    <label for="exampleInputEmail1">choose number of lines:</label>
+                    <input id="ligne" type="number" class="form-control" id="exampleInputEmail1" >
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1"> choose number of columns:</label>
+                    <input id="colonne" type="number" class="form-control" id="exampleInputEmail1" >
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">timer:</label>
+                    <input id="timer" type="number" class="form-control" id="exampleInputEmail1" >
+                </div><center>
+                <button onclick="create()" type="submit" class="btn btn-primary">Start</button></center>
+                <div class="spinner-border hide"  id="spinner" role="status">
+                    <span class="sr-only">Loading...</span>
+                  </div>
+                  <div class="message">
+                   
+                  </div>
+            </section>
+            <!-- plateau du jeu-->
+            <section class="col-md-9">
+                <div id="divTimer">
+
+                </div>
+                <table>
+                    <tbody id="plateau">
+
+                    </tbody>
+                </table>
+            </section>
+    </main>
+    <footer>
+        2020&copy BOUMAAZA OUMAYMA  
+      </footer>
+</body>
+</html>

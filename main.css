@@ -1,0 +1,30 @@
+.container>header>h1{
+    text-align: center;
+    background-color: purple;
+    font-family: fantasy;
+}
+#plateau td{
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+    border: 1px solid white;
+    text-align: center;
+    font-size: 30px;
+}
+.trouve{
+    background-color:green!important;
+}
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
+.tdHide{
+    opacity: 0;
+    transition-duration: 1;
+}
+.tdShow{
+    opacity: 1;
+    transition-duration: 1;
+}
